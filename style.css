@@ -1,0 +1,139 @@
+body{
+	font-family: lato;
+	color: #606060;
+}
+.wrep-container{
+	overflow: hidden;
+}
+.row-padding{
+	padding: 100px 0px;
+}
+.no-margin{
+	margin: 5px;
+}
+.home-weedid{
+	
+margin-top: 150px;
+}
+
+.home-weedid h1 {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.home-weedid h4 {
+    font-weight: 300;
+    margin-top: 25px;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.btn {
+    background: #3498db;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+}
+
+.btn a:hover {
+	background:#3498db;
+    color: white;
+}
+h5.quote {
+    font-size: 23px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: #4e4e4e;
+ }
+h6.penulis {
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.border-line{
+
+position: relative;
+}
+.border-line::before{
+	content: "";
+	position: absolute;
+	display: block;
+	height: 1px;
+	background-color: #7f8c8d;
+	left: -500px;
+	right: -500px;
+	top: 50%;
+}
+.card-floating{
+
+border-top: 4px solid #3498db;
+
+box-shadow: 1px 5px 15px rgba(0,0,0,0.1);
+}
+.card-padding{
+
+padding: 30px;
+}
+.card-title{
+	
+font-weight: 300;
+}
+.row-divider{
+	position: relative;
+}
+.row-divider::before{
+	position: absolute;
+	content: "";
+	width: 88%;
+	height: 1px;
+	background: radial-gradient(rgba(0,0,0,0.2),rgba(255,255,255,2)100%);
+	top: 0px;
+	margin-left: -40%;
+	left: 50%;
+}
+
+.teknologi img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.teknologi h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav.navbar.navbar-weedid.navbar-expand-sm.navbar-light {}
+
+.navbar-weedid {
+    margin-top: 50px;
+}
+.nav-li-weedid li {
+    margin-left: 30px;
+}
+#menukita{
+	transition: all 2s;
+}
+
+@media(max-width: 540px){
+ 	.navbar-weedid{
+ 		top: 0px;
+ 		margin-top: 0px;
+ 		left: 0px;
+ 		position: fixed;
+ 		width: 100%;
+ 		background: #f9f9f9;
+ 		z-index: 2;
+ 	}
+ 	.navbar-light .navbar-toggler{
+ 		font-size: 15px;
+ 		padding: 5px 7px;
+ 		cursor: pointer;
+ 	}
+ 	.clean-code{
+	margin-top: 20px;
+	}
+}
+.nav-link{
+	font-size: 20px;
+}
